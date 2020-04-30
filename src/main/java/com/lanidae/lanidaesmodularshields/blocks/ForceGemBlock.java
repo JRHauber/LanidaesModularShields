@@ -5,8 +5,9 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class ForceGemOreBlock extends Block {
-    public ForceGemOreBlock() {
+public class ForceGemBlock extends Block {
+
+    public ForceGemBlock() {
         super(Block.Properties.create(Material.IRON)
                 .hardnessAndResistance(6.0f, 8.0f)
                 .sound(SoundType.METAL)

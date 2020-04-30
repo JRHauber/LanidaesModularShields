@@ -2,6 +2,7 @@ package com.lanidae.lanidaesmodularshields.util;
 
 import com.lanidae.lanidaesmodularshields.LanidaesModularShields;
 import com.lanidae.lanidaesmodularshields.blocks.BlockItemBase;
+import com.lanidae.lanidaesmodularshields.blocks.ForceGemBlock;
 import com.lanidae.lanidaesmodularshields.blocks.ForceGemOreBlock;
 import com.lanidae.lanidaesmodularshields.items.ItemBase;
 import net.minecraft.block.Block;
@@ -28,8 +29,10 @@ public class RegistryHandler {
         public static final RegistryObject<Item> FORCE_DUST = ITEMS.register("force_dust", ItemBase::new);
     // Blocks
         public static final RegistryObject<Block> FORCE_GEM_ORE_BLOCK = BLOCKS.register("force_gem_ore_block", ForceGemOreBlock::new);
+        public static final RegistryObject<Block> FORCE_GEM_BLOCK = BLOCKS.register("force_gem_block", ForceGemBlock::new);
     //Block Items
         public static final RegistryObject<Item> FORCE_GEM_ORE_BLOCK_ITEM = ITEMS.register("force_gem_ore_block", () -> new BlockItemBase(FORCE_GEM_ORE_BLOCK.get()));
+        public static final RegistryObject<Item> FORCE_GEM_BLOCK_ITEM = ITEMS.register("force_gem_block", () -> new BlockItemBase(FORCE_GEM_BLOCK.get()));
     // Entities
 
 }

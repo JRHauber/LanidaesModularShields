@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "lms:block/force_gem_block" }
+  }
+}

@@ -3,6 +3,7 @@
   "item.lms.force_iron": "Force Iron",
   "item.lms.force_dust": "Force Dust",
   "itemGroup.lmsTab": "Lanidae's Modular Shields",
-  "block.lms.force_gem_ore_block": "Force Gem Ore"
+  "block.lms.force_gem_ore_block": "Force Gem Ore",
+  "block.lms.force_gem_block": "Force Gem Block"
 
 }
