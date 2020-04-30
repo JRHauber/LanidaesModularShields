@@ -27,6 +27,7 @@ public class RegistryHandler {
         public static final RegistryObject<Item> FORCE_GEM = ITEMS.register("force_gem", ItemBase::new);
         public static final RegistryObject<Item> FORCE_IRON = ITEMS.register("force_iron", ItemBase::new);
         public static final RegistryObject<Item> FORCE_DUST = ITEMS.register("force_dust", ItemBase::new);
+        public static final RegistryObject<Item> FIELD_TUNER = ITEMS.register("field_tuner", ItemBase::new);
     // Blocks
         public static final RegistryObject<Block> FORCE_GEM_ORE_BLOCK = BLOCKS.register("force_gem_ore_block", ForceGemOreBlock::new);
         public static final RegistryObject<Block> FORCE_GEM_BLOCK = BLOCKS.register("force_gem_block", ForceGemBlock::new);
