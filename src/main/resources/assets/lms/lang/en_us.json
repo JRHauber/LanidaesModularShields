@@ -4,6 +4,7 @@
   "item.lms.force_dust": "Force Dust",
   "itemGroup.lmsTab": "Lanidae's Modular Shields",
   "block.lms.force_dust_ore_block": "Force Dust Ore",
-  "block.lms.force_gem_block": "Force Gem Block"
+  "block.lms.force_gem_block": "Force Gem Block",
+  "item.lms.field_tuner": "Field Tuner"
 
 }

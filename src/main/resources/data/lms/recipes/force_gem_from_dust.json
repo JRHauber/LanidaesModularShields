@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lms:force_dust"
+    },
+    {
+      "item": "lms:force_dust"
+    },
+    {
+      "item": "lms:force_dust"
+    },
+    {
+      "item": "lms:force_dust"
+    }
+  ],
+  "result": {
+    "item": "lms:force_gem"
+  }
+}

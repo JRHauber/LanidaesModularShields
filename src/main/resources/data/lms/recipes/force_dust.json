@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "lms:force_dust_ore_block"
+  },
+  "result": {
+    "item": "lms:force_dust",
+    "count": 2
+  },
+  "experience": 5.0,
+  "cookingtime": 600
+}

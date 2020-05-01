@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lms:force_dust"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {"item": "lms:force_iron"}
+}

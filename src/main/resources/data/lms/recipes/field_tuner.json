@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Ii",
+    " II",
+    "I  "
+  ],
+  "key": {
+    "I": {
+      "item": "lms:force_iron"
+    },
+    "i": {
+      "item": "lms:force_gem"
+    }
+  },
+  "result": {
+    "item": "lms:field_tuner"
+  }
+}
