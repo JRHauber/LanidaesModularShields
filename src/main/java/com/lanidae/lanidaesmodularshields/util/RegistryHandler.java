@@ -5,8 +5,10 @@ import com.lanidae.lanidaesmodularshields.blocks.BlockItemBase;
 import com.lanidae.lanidaesmodularshields.blocks.ForceGemBlock;
 import com.lanidae.lanidaesmodularshields.blocks.ForceDustOreBlock;
 import com.lanidae.lanidaesmodularshields.items.ItemBase;
+import com.lanidae.lanidaesmodularshields.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -34,5 +36,9 @@ public class RegistryHandler {
         public static final RegistryObject<Item> FORCE_DUST_ORE_BLOCK_ITEM = ITEMS.register("force_dust_ore_block", () -> new BlockItemBase(FORCE_DUST_ORE_BLOCK.get()));
         public static final RegistryObject<Item> FORCE_GEM_BLOCK_ITEM = ITEMS.register("force_gem_block", () -> new BlockItemBase(FORCE_GEM_BLOCK.get()));
     // Entities
+    //Tools
+        public static final RegistryObject<SwordItem> FORCE_SWORD = ITEMS.register("force_sword", () ->
+                new SwordItem(ModItemTier.FORCE_GEM, 5, -2.8F, new Item.Properties().group(LanidaesModularShields.TAB))
+            );
 
 }
